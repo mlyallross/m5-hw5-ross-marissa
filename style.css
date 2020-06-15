@@ -50,6 +50,10 @@ section {
     background-color: #42f542;
 }
 
+.hidden {
+    display: none;
+}
+
 /**** Start 768px min width media query *****/
 @media (min-width: 768px) {
     h1 {
