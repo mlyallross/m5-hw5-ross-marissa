@@ -49,3 +49,22 @@ section {
 .Box-3 {
     background-color: #42f542;
 }
+
+/**** Start 768px min width media query *****/
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        padding: 0 20%;
+    }
+
+    button {
+        width: 300px;
+        height: 300px;
+        font-size: 6rem;
+    }
+}
+/**** Start 768px min width media query *****/
