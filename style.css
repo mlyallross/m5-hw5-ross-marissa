@@ -67,4 +67,22 @@ section {
         font-size: 6rem;
     }
 }
-/**** Start 768px min width media query *****/
+/**** End 768px min width media query *****/
+
+/**** Start 1080px min width media query *****/
+@media (min-width: 1080px) {
+    h2 {
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    section {
+        flex-direction: row;
+    }
+
+    button {
+        margin: 3%;
+    }
+}
+
+/**** End 1080px min width media query *****/
